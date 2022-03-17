@@ -7,7 +7,7 @@ function cadastrar(){
         input.style.border = "solid 1px red"
 
     }else{
-    cadastro.innerHTML=(`Seu cadastro foi realizado!`);
+     cadastro.innerHTML=(`Seu cadastro foi realizado!`);
     cadastro.style.color = "green"
     input.style.border = "solid 1px green"
 
