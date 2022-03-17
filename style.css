@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+}
+.menu {
+  height: 10vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: aliceblue;
+}
+.menu-items {
+  display: flex;
+  text-align: end;
+  color: aliceblue;
+}
+header img {
+  padding: 0px 20px 0px 10px;
+}
+.text-top {
+  padding: 20px 0px 20px 0px;
+  font-size: 1.7rem;
+}
+.nav-menu {
+  position: absolute;
+  right: 0;
+  padding: 25px 0px 20px 0px;
+}
+.items {
+  padding: 20px;
+  color: aliceblue;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+main {
+  display: flex;
+}
+
+.text {
+  height: 90vh;
+  background-image: url("./fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  width: 130vw;
+}
+.title {
+  padding: 200px 30px 0px 20px;
+  text-align: end;
+  text-shadow: 0.1em 0.2em 0.15em black;
+}
+.subtitle {
+  padding: 20px 30px 0 20px;
+  text-align: end;
+}
+.title-cadastro {
+  padding: 200px 30px 0px 30px;
+}
+#email {
+  border: solid 1px black;
+  width: 75%;
+  margin: 20px 30px 20px 30px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.btn {
+  background-color: black;
+  color: aliceblue;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 3px solid #000;
+  background-color: aliceblue;
+  color: #000;
+}
+#cadastro{
+  text-align: center;
+  padding-top: 20px;
+}
+.contato {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  
+}
+.title-contato {
+  display: block;
+  background-color: black;
+  color: aliceblue;
+  max-width: 99vw;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+}
+.map {
+  height: 250px;
+  margin: 20px;
+}
+.descricao {
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.endereco,
+.contato-links {
+  padding: 70px 20px 20px 15px;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.contato a {
+  color: aliceblue;
+  font-size: 1rem;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .menu,
+  .contato,
+  .menu-items,
+  main {
+    display: block;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+  .text {
+    height: 70vh;
+    max-width: 100%;
+  }
+  .title-cadastro {
+    padding-top: 50px;
+  }
+  .text-top {
+    display: block;
+    text-align: center;
+  }
+  .endereco,
+  .contato-links {
+    padding-top: 30px;
+  }
+  .subtitle {
+    margin-bottom: 50px;
+  }
+  header img {
+    display: block;
+    margin: auto;
+  }
+  .descricao {
+    padding-bottom: 20px;
+  }
+  .cadastro {
+    height: 50vh;
+  }
+  .title-contato {
+    width: 90vw;
+  }
+  #cadastro{
+    padding-bottom: 20px;
+  }
+}

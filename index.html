@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Venha para o melhor bar da região!" />
+    <title>BAR DA LAGOA</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="logo_bar.png" type="image/x-icon" />
+  </head>
+  <body>
+
+    <!--Área dos links de navegação-->
+
+    <header class="menu">
+      <img src="./logo_bar_pb.png" alt="logo" height="100%" />
+      <p class="text-top">BAR DA LAGOA</p>
+      <nav class="nav-menu">
+        <ul class="menu-items">
+          <li><a href="#sobre" class="items">Sobre nós</a></li>
+          <li><a href="#contato" class="items">Contato</a></li>
+          <li><a href="#trabalhe-conosco" class="items">Trabalhe Conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<!--Área do conteúdo, com convite para o cliente e input do email para recebimento de cupons-->
+
+    <main class="conteudo">
+      <div class="text">
+        <h1 class="title">VENHA CONHECER O BAR DA LAGOA</h1>
+        <h2 class="subtitle">
+          Você não pode perder o melhor rodizio de petiscos e chopp da região!
+        </h2>
+      </div>
+      <div class="cadastro">
+        <h3 class="title-cadastro">
+          Cadastre seu email para receber cupons de desconto, avisos sobre a
+          noite dos drinks e muito mais!
+        </h3>
+        <input type="email" name="email" id="email" placeholder="E-mail" />
+        <br />
+        <button class="btn" onclick="cadastrar()">Cadastrar</button>
+        <p id="cadastro"></p>
+      </div>
+    </main>
+
+    <!--Área de contatos e endereço-->
+
+    <h2 class="title-contato">Onde estamos e nossos contatos</h2>
+    <div class="contato" id="contato">
+      <div class="local">
+        <img src="./local.PNG" alt="" class="map" />
+      </div>
+      <div class="endereco">
+        <p class="descricao">Nosso endereço:</p>
+        <address>
+          Rua do Jacó, 16 <br />
+          Praia da Itaipava<br />
+          Volta Redonda/RJ
+        </address>
+      </div>
+      <div class="contato-links">
+        <p class="descricao">Fale conosco:</p>
+        <br />
+        <address>
+          <a href="tel:+">(24) 3340-0231</a>
+        </address>
+      </div>
+    </div>
+    <footer>Criado por Julia do Prado - 2022</footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
