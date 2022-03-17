@@ -9,5 +9,7 @@ function cadastrar(){
     }else{
     cadastro.innerHTML=(`Seu cadastro foi realizado!`);
     cadastro.style.color = "green"
+    input.style.border = "solid 1px green"
+
 
 }}
